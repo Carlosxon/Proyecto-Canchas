@@ -6,7 +6,9 @@ $actualsesion = $_SESSION['nombre'];
 if($actualsesion == null || $actualsesion == ''){
     header("Location: ../includes/_sesion/login.php");
 	die();
-
+if($actualsesion == null || $actualsesion == ''){
+    header("Location: ../includes/_sesion/login.php");
+	die();
 }
 
 
